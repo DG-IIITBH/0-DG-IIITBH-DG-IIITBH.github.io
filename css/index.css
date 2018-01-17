@@ -1,0 +1,21 @@
+#container {
+	top: 120px;
+	position: absolute;
+	width: 45%;
+	left: 10%;
+	margin-bottom: 200px;
+	text-align: justify;
+	padding-bottom: 100px;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+#logo_right {
+	position: fixed;
+	right: 10%;
+	top: 200px;
+	width: 30%;
+	max-width: 30%;
+}
