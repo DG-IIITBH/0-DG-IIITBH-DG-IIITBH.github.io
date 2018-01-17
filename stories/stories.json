@@ -1,1 +1,31 @@
+{
+	"stories":[ 
+		{
+			"author": "Rupam Bhattacharyya",
+			"filename": "Rupam Bhattacharyya.txt",
+			"org": "Mentor",
+			"tags": "Asst Professor(CSE), Cognitive Vision, Reinforcement Learning, Cognitive Robotics"
+		},
 
+		{
+			"author": "Pritam Pal",
+			"filename": "Pritam Pal.txt",
+			"org":"student",
+			"tags": "Contributor, Member"
+		},
+
+		{
+			"author": "Anuranjan Kumar",
+			"filename": "Anuranjan Kumar.txt",
+			"org": "student",
+			"tags": "Contributor, Member"
+		},
+
+		{ "author": "Saichethan Reddy",
+		  "filename": "Saichethan Reddy.txt",
+		  "org": "student",
+		  "tags": "Author, Contributor, Member"
+		}
+
+	]
+}
