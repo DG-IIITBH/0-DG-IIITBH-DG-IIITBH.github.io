@@ -3,7 +3,7 @@
 <head>
 	<title>DG Community : IIIT-Bhagalpur</title>
 	<link rel="stylesheet" href="./css/standard.css" />
-	<link rel="stylesheet" href="./css/IIITBH.css" />
+	<link rel="stylesheet" href="./css/preface.css" />
 
 </head>
 <body>
@@ -24,7 +24,57 @@
 </tr>
 </table>
 <br /><br /><br /><br />
-<img src="IIIT/sunflower.jpg" width="1300px" height="550px"/>
+
+	
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="IIIT/academicb.jpg" style="width:100%">
+  <div class="text">Campus</div>
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="IIIT/stu.jpg" style="width:100%">
+  <div class="text">Students</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="IIIT/staff.jpg" style="width:100%">
+  <div class="text">Staff</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 5 seconds
+}
+</script>	
 
 <div id="footer">&copy; Developers Group (DG) : IIIT-Bhagalpur &bull; <a href="contributor.html"><span class="link">See Contributors</a></div>	
 
