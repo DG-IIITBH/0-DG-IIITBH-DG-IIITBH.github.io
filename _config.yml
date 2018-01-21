@@ -7,4 +7,18 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-theme: jekyll-theme-primer
+title:
+  - DG Community
+  -dg community
+  
+  
+  
+  author:
+   - Saichethan
+   
+   social:
+     name: DG Community
+     
+     links:
+       https://m.facebook.com/DG-Community-IIIT-Bhagalpur-177777156160101
+     
