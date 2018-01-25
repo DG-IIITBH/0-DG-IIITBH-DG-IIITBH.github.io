@@ -5,7 +5,8 @@
 	<link rel="stylesheet" href="./css/standard.css" />
 	<link rel="stylesheet" href="./css/IIITBH.css" />
 	
-
+<meta name="google-signin-client_id" content="162091236242-o8asek5kp4p38q9prglv7o69edjm61tb.apps.googleusercontent.com">
+	
 </head>
 <body>
 
@@ -29,6 +30,28 @@
 </table>
 <br /><br /><br /><br /><br />
 
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	
+	function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+	<a href="#" onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+	
+	
+	
 <center>
 
   <iframe
