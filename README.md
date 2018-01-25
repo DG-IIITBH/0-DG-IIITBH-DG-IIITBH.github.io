@@ -4,13 +4,14 @@ This is official website of [DG Community : IIIT Bhagalpur](https://dg-iiitbh.gi
 
 ![Logo](https://github.com/DG-IIITBH/DG-IIITBH.github.io/blob/master/img/logo.svg)
 
-### TODOS
+## TODOS
 
 * Improve UI.
 * Update Content
 * Increase Community
-* Hackathons
-* Workshops
+
+### Check Wiki for more information.
+
 
 
 
