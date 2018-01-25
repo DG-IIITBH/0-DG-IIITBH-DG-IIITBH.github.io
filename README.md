@@ -7,6 +7,7 @@ This is official website of [DG Community : IIIT Bhagalpur](https://dg-iiitbh.gi
 ## TODOS
 
 * Improve UI.
+* Add a Logo
 * Update Content
 * Increase Community
 
