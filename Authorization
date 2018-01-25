@@ -1,1 +1,12 @@
 
+const hintPromise = googleyolo.hint({
+  supportedAuthMethods: [
+    "https://accounts.google.com"
+  ],
+  supportedIdTokenProviders: [
+    {
+      uri: "https://accounts.google.com",
+      clientId: "162091236242-o8asek5kp4p38q9prglv7o69edjm61tb.apps.googleusercontent.com"
+    }
+  ]
+});
