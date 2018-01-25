@@ -10,7 +10,7 @@ This is official website of [DG Community : IIIT Bhagalpur](https://dg-iiitbh.gi
 * Update Content
 * Increase Community
 
-### Check Wiki for more information.
+### [Check Wiki for more information.](https://github.com/DG-IIITBH/DG-IIITBH.github.io/wiki)
 
 
 
