@@ -24,7 +24,7 @@ This is official website of [DG Community : IIIT Bhagalpur](https://dg-iiitbh.gi
 
 
 
-
+![DG IIIT](/img/DGIIIT.png)
 
 
 
