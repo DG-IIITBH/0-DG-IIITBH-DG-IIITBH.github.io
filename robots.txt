@@ -1,3 +1,1 @@
-User-Agent: Googlebot
-Allow: /calendar.ics?
-Disallow: /
+
